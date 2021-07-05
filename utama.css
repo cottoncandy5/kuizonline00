@@ -1,0 +1,40 @@
+body {
+	background-image: url(wood.jpg);
+}
+
+div {
+	width: 700px;
+	height: 555px;
+	margin: 30px auto;
+	border-radius: 15px;
+	border: 2px solid purple;
+	background-image: url(paper2.jpg);
+	box-shadow: 15px 15px 6px rgba(106, 96, 96, 0.7);
+}
+
+iframe.header {
+	width: 700px;
+	height: 50px;
+	border-radius: 10px 10px 0 0;
+	float: left;
+}
+
+iframe.menu {
+	clear: left;
+	float: left;
+	position: relative;
+	border: none;
+	border-radius: 0 0 0 15px;
+	width: 170px;
+	height: 500px;
+
+}
+
+iframe.kandungan {
+	float: left;
+	position: relative;
+	border: none;
+	border-radius: 0 0 10px 0;
+	width: 530px;
+	height: 500px;
+}
